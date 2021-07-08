@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Source sans Bold";
+    src: url("../font/sorce sans/sourcesanspro-bold-webfont.woff") format("woff"),
+    url("../font/sorce sans/sourcesanspro-bold-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Source sans light";
+    src: url("../font/sorce sans/sourcesanspro-light-webfont.woff") format("woff"),
+    url("../font/sorce sans/sourcesanspro-light-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Quicksand";
+    src: url("../font/quicksand/quicksand-variablefont_wght-webfont.woff") format("woff"),
+    url("../font/quicksand/quicksand-variablefont_wght-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Source sans SemiBold";
+    src: url("../font/sorce sans/sourcesanspro-semibold-webfont.woff") format("woff"),
+    url("../font/sorce sans/sourcesanspro-semibold-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Source sans";
+    src: url("../font/sorce sans/sourcesanspro-regular-webfont.woff") format("woff"),
+    url("../font/sorce sans/sourcesanspro-regular-webfont.woff2") format("woff2");
+}
