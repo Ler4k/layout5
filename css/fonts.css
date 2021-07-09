@@ -23,3 +23,9 @@
     src: url("../font/sorce sans/sourcesanspro-regular-webfont.woff") format("woff"),
     url("../font/sorce sans/sourcesanspro-regular-webfont.woff2") format("woff2");
 }
+@font-face {
+    font-family: "Source sans Italic";
+    src: url("../font/sorce sans/sourcesanspro-italic-webfont.woff") format("woff"),
+    url("../font/sorce sans/sourcesanspro-italic-webfont.woff2") format("woff2");
+}
+
