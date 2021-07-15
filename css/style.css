@@ -1,5 +1,8 @@
-.head-wrapper {
+@inc .head-wrapper {
   width: 1170px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fffefe;
 }
 
 .row {
@@ -140,6 +143,9 @@ a:hover span span:first-child {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   color: #ffffff;
+}
+.head-row .head-info .button-wrapper button:hover {
+  opacity: 0.8;
 }
 .head-row span:first-child {
   font-family: "Source sans light", sans-serif;
@@ -514,6 +520,7 @@ a:hover span span:first-child {
   letter-spacing: 2.2px;
   color: #008ed6;
   margin-left: -4px;
+  width: 185px;
 }
 .pricing-wrapper .pricing-container .row .col-4:nth-child(2) span:nth-child(2) {
   font-family: "Source Sans", sans-serif;
@@ -524,6 +531,7 @@ a:hover span span:first-child {
   color: #ffffff;
   margin-top: -8px;
   margin-left: -7px;
+  width: 248px;
 }
 .pricing-wrapper .pricing-container .row .col-4:nth-child(2) .line-wrapper {
   position: relative;
@@ -699,6 +707,9 @@ a:hover span span:first-child {
   margin-left: 21px;
   border: 0;
   border-radius: 3px;
+}
+.ad-wrapper .ad-container .row .col-xl-5 button:hover {
+  opacity: 0.8;
 }
 
 .price-wrapper-2 {
@@ -1017,6 +1028,7 @@ a:hover span span:first-child {
 .footer-wrapper .footer-container .row .col-xl-4 div i:hover {
   color: #00b3ff;
   opacity: 1;
+  cursor: pointer;
 }
 .footer-wrapper .footer-container .row .col-xl-4 span {
   font-family: "Source Sans", sans-serif;
@@ -1096,6 +1108,9 @@ a:hover span span:first-child {
   text-transform: uppercase;
   color: #ffffff;
 }
+.footer-wrapper .form .col-lg-5 button:hover {
+  opacity: 0.8;
+}
 
 @media screen and (max-device-width: 1200px) {
   .head-wrapper {
@@ -1164,6 +1179,7 @@ a:hover span span:first-child {
   .details-wrapper-2 .details-container-2 .row .col-xl-7 img {
     width: 533px;
     height: 378px;
+    margin-top: 0px;
   }
 
   .plans-slider {
@@ -1171,7 +1187,10 @@ a:hover span span:first-child {
     align-items: center;
   }
   .plans-slider .slick-list {
-    width: 50%;
+    width: 590px;
+  }
+  .plans-slider .slick-list .slick-track .col-6 {
+    max-width: 572px;
   }
 
   .ad-wrapper .ad-container .row .col-xl-7 {
@@ -1209,6 +1228,10 @@ a:hover span span:first-child {
 }
 @media screen and (max-device-width: 990px) {
   .details-image img {
+    display: none;
+  }
+
+  .menu-items a div {
     display: none;
   }
 
@@ -1278,6 +1301,13 @@ a:hover span span:first-child {
     width: 300px;
   }
 
+  .pricing-wrapper .pricing-container .plans-slider .slick-list {
+    width: 300px;
+  }
+  .pricing-wrapper .pricing-container .plans-slider .slick-list .slick-track .col-6 {
+    max-width: 288px;
+  }
+
   .ad-wrapper .ad-container .row .col-xl-7 {
     display: flex;
     padding-right: 0;
@@ -1305,8 +1335,24 @@ a:hover span span:first-child {
     margin-top: 30px;
     margin-left: 23px;
   }
+
+  .pricing-wrapper .pricing-container .plans-slider .slick-list .slick-track .col-6:nth-child(2n) {
+    margin-left: 35px;
+  }
 }
 @media screen and (max-device-width: 500px) {
+  iframe {
+    margin-top: 315px;
+  }
+
+  .details-wrapper .details-container .details-items .details-info span:nth-child(2) {
+    text-align: center;
+  }
+
+  .details-container .details-items .details-info .parameters-folder .col-10 span {
+    text-align: left;
+  }
+
   .head-row .col-xl-5:last-child img {
     display: none;
   }
@@ -1336,6 +1382,35 @@ a:hover span span:first-child {
   }
   .head-row .head-info .button-wrapper button {
     margin-bottom: 10px;
+  }
+
+  .footer-wrapper .form {
+    width: 100%;
+  }
+  .footer-wrapper .form .col-lg-6 {
+    padding-right: 0;
+  }
+  .footer-wrapper .form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+  .footer-wrapper .form div .row .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0;
+  }
+  .footer-wrapper .form div .row .col-lg-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0;
+  }
+  .footer-wrapper .form div .row .col-lg-5 textarea {
+    margin-right: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
