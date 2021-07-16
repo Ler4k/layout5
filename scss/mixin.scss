@@ -109,11 +109,16 @@
   letter-spacing: 2.2px;
   text-transform: uppercase;
 }
-@mixin title-2{
+@mixin title-2($color){
   font-family: "Source Sans", sans-serif;
   font-size: 34px;
   font-weight: 600;
   text-transform: none;
   letter-spacing: 1.3px;
-  color: $strange-black-dark;
+  @if ($color==true) {
+    color: $strange-black-dark;
+  }
+  @else {
+    color: $dark-white;
+  }
 }
